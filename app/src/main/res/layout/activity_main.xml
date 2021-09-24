@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <Button
+       android:text="btn_1 水纹"
+       style="@style/Button1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:text="btn_2 底色 边框 圆角"
+       style="@style/Button2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+   <Button
+       android:text="btn_3 渐变"
+       style="@style/Button3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:text="叶子"
+       style="@style/Button4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:text="圆"
+       style="@style/Button5"
+       android:layout_width="100dp"
+       android:layout_height="100dp"/>
+
+</LinearLayout>
